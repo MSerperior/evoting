@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <% include utils/header %>
+  <body>
+    <section class="container login-form-container text-center">
+      <div>
+        <img
+          class="card-img-top"
+          src="/images/thanks.png"
+          alt="Card image cap"
+        />
+      </div>
+      <!-- <div>
+        <h1 class="display-4">Terima Kasih</h1>
+        
+        <p class="lead">Anda Telah Memilih <%= jenis %> Tahun Ini</p>
+        <div class="mt-5">
+          <span class="bg-success p-2"
+            ><small class="text-white">Redirecting in 5 seconds...</small></span
+          >
+        </div>
+      </div> -->
+    </section>
+    <!-- SCRIPT untuk kembali ke HOME setelah pilih calon ketua & wakil -->
+    <script type="text/javascript">
+      setTimeout(function() {
+        window.location = "http://localhost:3000";
+      }, 5000);
+    </script>
+  </body>
+</html>
